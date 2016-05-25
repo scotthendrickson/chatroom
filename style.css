@@ -7,15 +7,17 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url('http://media.moddb.com/images/articles/1/161/160943/Loadinggate_003.png');
+  background-position: center;
 }
 
 .main-container {
-  width: 75%;
+  width:40%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 128, 0.20);
   padding: 5px;
   border-radius: 10px;
+  color: white;
 }
 
 .main-container h1 {
@@ -23,12 +25,27 @@ body {
 }
 
 .text-box {
-  margin: 0px auto;
-  width: 40%;
+  margin: 1px auto;
+  width: auto;
+  background: #ccffee;
+  text-align: center;
+}
+.messages-text {
+  background-color: rgba(51, 153, 255,0.35);
+  text-align: center;
+  width: auto;
+  margin: 1px auto;
+  color:#ff8080;
+
 }
 
 p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.delete-button {
+  align-content: flex-end;
+  background-color: rgba(255, 0, 0,0.25);
 }
